@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* NAVBAR */
+
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 1);
+    background: rgb(103,103,103);
+    background: linear-gradient(90deg, rgba(103,103,103,1) 0%, rgba(40,40,40,1) 10%, rgba(0,0,0,1) 100%);
+    margin-block-end: 1.5px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.navbar-link:hover {
+color: rgb(139, 139, 139);
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar i{
+    font-size: 40px;
+    display: none;
+}
+
+#toggle-menu{
+    display: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-weight: 1000;
+    font-stretch: semi-condensed;
+    color: white;
+    font-size: 20px;
+}
+
+/*MAIN*/
+
+
+.ver-productos{
+    background-color: white;
+    background-image: url(/ProyectoIntegrador/pexels-pixabay-159291.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 50px;
+    padding: 250px;
+    top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.ver-productos h1{
+    font-size: 80px;
+    font-weight: 1000;
+    color: white;
+}
+
+.ver-productos h3{
+    font-style: italic;
+    color: white;
+    font-size: 60px;
+}
+
+.ver-productos a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ver-productos a:hover{
+color: rgb(146, 149, 126);
+}
+
+/*promos*/
+
+.promos{
+display: flex;
+justify-content:center;
+background-color: rgb(33, 33, 33);
+align-items: center;
+gap: 100px;
+height: 250px;
+width: 100%;
+}
+
+.promos .promo1{
+width: 50%;
+}
+.promos p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 30px;
+}
+
+/*cards*/
+
+.cards{
+    background: rgb(103,103,103);
+    background: linear-gradient(90deg, rgba(103,103,103,1) 0%, rgba(40,40,40,1) 10%, rgba(0,0,0,1) 100%);
+}
+
+.cards .productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+.cards .productos .h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.cards-productos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 650px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.cards a{
+    font-weight: 900;
+    color: black;
+    background: rgb(103,103,103);
+    background: linear-gradient(90deg, rgba(103,103,103,1) 0%, rgba(40,40,40,1) 10%, rgba(0,0,0,1) 100%);
+    width: 120px;
+    padding: 8px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cards .productos h2{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+.cards .productos h3{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+
+.cards .cards-productos .latas{
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-image: url(pexels-floren-m-surace-16562990.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    zoom: 1;
+}
+
+.cards .cards-productos .latas:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=100);
+    zoom: 1;
+}
+
+.cards .cards-productos .botellas{
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-image: url(pexels-kampus-production-7893800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    zoom: 1;
+}
+.cards .cards-productos .botellas:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=100);
+    zoom: 1;
+}
+
+.cards .cards-productos .eventos{
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-image: url(pexels-mart-production-7270012.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    zoom: 1;
+}
+.cards .cards-productos .eventos:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=100);
+    zoom: 1;
+}
+
+.cards .cards-productos .merch{
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-image: url(pexels-micheilecom-__-visual-stories-10045955.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    zoom: 1;
+}
+.cards .cards-productos .merch:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+    zoom: 1;
+}
+
+/*envios*/
+
+.envios {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgb(33, 33, 33);
+    }
+
+.envios .texto{
+    color: white;
+    padding: 100px;
+    width: 50%;
+    text-align: center;
+}
+
+.envios .texto h2{
+    font-size: 50px;
+}
+.envios .texto p{
+    font-size: 25px;
+}
+
+.envios .imagen{
+    background-image: url(pexels-craig-adderley-1561146.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .contacto{
+    background-image: url(pexels-eva-bronzini-5659494.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.footer .contacto h2{
+    font-size: 40px;
+}
+
+.footer .contacto h3{
+    font-size: 25px;
+    color: rgb(70, 20, 20);
+}
+
+.footer .mapa{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .mapa .maps {
+    width: 100%;
+}
+
+/*media*/
+
+@media (max-width: 875px){
+    .navbar ul{
+        background-image: url(/ProyectoIntegrador/pexels-pixabay-159291.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    
+    .cards .cards-productos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ver-productos{
+        background-image: url(/ProyectoIntegrador/pexels-pixabay-159291.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 115px;
+    }
+    .navbar i{
+        display: block;
+    }
+    
+    #toggle-menu:checked ~ .navbar-list {
+        display: flex;
+    }
+
+    .promos {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    .cards .cards-productos .latas{
+        height: 500px;
+    }
+
+    .cards .cards-productos .botellas{
+        height: 500px;
+    }
+
+    .cards .cards-productos .eventos{
+        height: 500px;
+    }
+
+    .cards .cards-productos .merch{
+        height: 500px;
+    }
+
+    .envios{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .envios .texto{
+        height: 250px;
+        padding: 5px;
+        width: 100%;
+    }
+    .envios .imagen{
+        height: 500px;
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer .contacto {
+        width: 100%;
+}
+
+.footer .mapa{
+    width: 100%;
+}
+}
+
+@media (max-width: 375px){
+    .ver-productos{
+        padding: 40px;
+    }
+    .ver-productos h1{
+        font-size: 50px;
+        margin-top: 55px;
+    }
+
+    .promos .promo1{
+        width: 100%;
+    }
+    .envios{
+        height: 100%;
+    }
+    .envios .texto{
+        height: 100%;
+    }
+
+    .envios .imagen{
+        height: 250px;
+    }
+}
