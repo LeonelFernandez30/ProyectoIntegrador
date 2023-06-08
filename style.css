@@ -291,7 +291,7 @@ width: 50%;
 
 .envios .texto{
     color: white;
-    padding: 100px;
+    padding: 50px;
     width: 50%;
     text-align: center;
 }
@@ -346,11 +346,74 @@ footer .mapa .maps {
     width: 100%;
 }
 
+/*Login*/
+
+.forms{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.form-login{
+    width: 370px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    
+    
+    
+}
+.title-login{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 1px white solid;
+    border-bottom: 1px black solid;
+    
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px white solid;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+.btn:hover{
+    transition: 1s;
+    font-weight: bolder;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+
+}
 /*media*/
 
 @media (max-width: 875px){
     .navbar ul{
-        background-image: url(/ProyectoIntegrador/pexels-pixabay-159291.jpg);
+        background-image: url(/pexels-pixabay-159291.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -371,7 +434,7 @@ footer .mapa .maps {
     }
     
     .ver-productos{
-        background-image: url(/ProyectoIntegrador/pexels-pixabay-159291.jpg);
+        background-image: url(/pexels-pixabay-159291.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
