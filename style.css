@@ -533,6 +533,11 @@ input{
 .footer .mapa{
     width: 100%;
 }
+
+.forms {
+    flex-direction: column;
+}
+
 }
 
 @media (max-width: 375px){
@@ -570,5 +575,9 @@ input{
 
     .navbar {
         background-color: gray;
+    }
+
+    .forms {
+        flex-direction: column;
     }
 }
